@@ -1,0 +1,37 @@
+body {
+  background-image: url('https://lh3.googleusercontent.com/K3UdS0t311DpKIiq614Ix6cRanFYxueEFaLF3T0bPQLGcJtqzw5ps3ClI85nK7jB4ElbKBs8xg=w640-h400-e365');
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+}
+
+.menu {
+  background-color: SlateBlue;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  color: Blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  color: black;
+  text-align: center;
+}
+.site-subtitle {
+ font-style: italic; 
+}
